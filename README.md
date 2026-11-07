@@ -1,7 +1,7 @@
 # AVORA
 ### Celebrate. Remember.
 
-> **Live Demo:** [Insert Live Link Here]  
+> **Live Demo:** https://avora-navy-three.vercel.app 
 > **GitHub Repository:** [Insert GitHub Repo Link Here]
 
 AVORA-Plan is a modern, stylish, and responsive event management website. It helps people find upcoming events, view all the details, and register in just a few clicks.
@@ -109,24 +109,5 @@ npm run preview
 
 ---
 
-## Deployment Guide
-
-### Vercel
-1. Push your code to GitHub.
-2. Import the repository in your Vercel dashboard.
-3. Vercel detects Vite automatically. Click **Deploy**.
-
-### Netlify
-1. Connect your repository to Netlify.
-2. Set **Build command** to `npm run build`.
-3. Set **Publish directory** to `dist`.
-4. Click **Deploy Site**.
-
-### GitHub Pages
-1. In `vite.config.js`, set `base: './'` (already configured).
-2. Run `npm run build`.
-3. Deploy the contents of the `dist` folder to your `gh-pages` branch. Because HashRouter is used, all routes will load smoothly!
-
----
 
 © 2026 AVORA-Plan. Celebrate. Remember.
