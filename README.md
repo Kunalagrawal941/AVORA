@@ -2,7 +2,7 @@
 ### Celebrate. Remember.
 
 > **Live Demo:** https://avora-navy-three.vercel.app 
-> **GitHub Repository:** [Insert GitHub Repo Link Here]
+> **GitHub Repository:** https://github.com/Kunalagrawal941/AVORA.git
 
 AVORA-Plan is a modern, stylish, and responsive event management website. It helps people find upcoming events, view all the details, and register in just a few clicks.
 
