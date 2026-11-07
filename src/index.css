@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-cream: #FAF3EB;
+    --color-sand: #F3E6D8;
+    --color-tan: #E6D5C3;
+    --color-brand: #B08968;
+    --color-brand-dark: #7F5539;
+    --color-ink: #3B2A20;
+    --color-muted: #8A735F;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF3EB;
+  }
+  .dark ::-webkit-scrollbar-track {
+    background: #1E1611;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #B08968;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7F5539;
+  }
+
+  /* Accessible focus outlines */
+  :focus-visible {
+    outline: 2px solid #B08968;
+    outline-offset: 2px;
+  }
+}
+
